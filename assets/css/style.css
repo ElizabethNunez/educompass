@@ -173,7 +173,7 @@ footer {
         "main" 
         "footer";
         grid-template-columns: 1fr;
-        grid-template-rows: 15% 20% auto 20%;
+        grid-template-rows: 12% 20% auto 20%;
     }
 
     .navbar {
@@ -209,6 +209,7 @@ footer {
         display: grid;
         color:black;
     }
+  
     .carrousel-text {
         display: none;
     }
