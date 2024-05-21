@@ -142,6 +142,7 @@ footer {
     border: lightgrey solid 1px;
     width: 16rem;
     margin-bottom: 3%;
+    margin-top: 3%;
 }
 .card:hover {
     border:#759CBF solid 3px;
@@ -171,7 +172,7 @@ footer {
         "main" 
         "footer";
         grid-template-columns: 1fr;
-        grid-template-rows: 10% 20% auto 15%;
+        grid-template-rows: 8% 20% auto 15%;
     }
 
     .nav-menu {
@@ -212,6 +213,7 @@ footer {
     .carrousel-text {
         display: none;
     }
+    
     .galery {
         display: grid;
         grid-column: 1fr; }
