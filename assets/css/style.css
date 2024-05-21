@@ -27,7 +27,8 @@
     flex-direction: column;
     display: block;
 }
-.menu-burger {
+
+.navbar-toggler {
     display: none;
 }
 
@@ -172,36 +173,33 @@ footer {
         "main" 
         "footer";
         grid-template-columns: 1fr;
-        grid-template-rows: 8% 20% auto 15%;
-    }
-
-    .nav-menu {
-        display: none;
-    }
-
-    .menu-burguer {
-        display: block;
+        grid-template-rows: 12% 20% auto 15%;
     }
 
     .navbar {
-        display: grid;
-        grid-area: navbar;
+        display: block;
+
+    }
+    .navbar-toggler {
+        display: block;
+        color:white;
+        font-weight: lighter;
     }
 
     .logo {
         display: flex;
-        align-items: center;
-        padding-top: 0%;
+        justify-content: space-between;
     }
+    .logo-responsive {
+        display: flex;
+        align-items: flex-start;
+        }
 
     .logo img {
-        height: 4%;
-        width: 4%;
-        margin-top: 3%;
-        margin-bottom: 4%;
+        height: 30%;
     }
     .edu {
-        padding-left: 2%;
+        padding-left: 5%;
     }
     .description-logo {
         display: none;
@@ -214,6 +212,10 @@ footer {
         display: none;
     }
     
+    .nav-menu {
+        z-index: 1000;
+    }
+
     .galery {
         display: grid;
         grid-column: 1fr; }
