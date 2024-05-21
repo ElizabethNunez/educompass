@@ -214,12 +214,17 @@ footer {
     }
     .galery {
         display: grid;
-        grid-column: 1fr;
-        justify-content: space-around;
+        grid-column: 1fr; }
+
+    .galery-tittle {
+        margin-left: 2%;
+        margin-right: 2%;
     }
+
+        
     .galery-section {
         display: grid;
         grid-template-columns: 1fr;
-        justify-content: center;
+        justify-items: center;
     }
 }
