@@ -173,11 +173,12 @@ footer {
         "main" 
         "footer";
         grid-template-columns: 1fr;
-        grid-template-rows: 12% 20% auto 20%;
+        grid-template-rows: 15% 20% auto 20%;
     }
 
     .navbar {
         display: block;
+        z-index: 1000;
 
     }
     .navbar-toggler {
