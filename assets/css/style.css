@@ -136,6 +136,7 @@ footer {
     justify-content: space-around;
     padding-top: 2%;
     grid-template-columns: auto auto auto;
+    flex-wrap:wrap-reverse;
 }
 .card {
     transition: border  01s ease;
@@ -185,6 +186,9 @@ footer {
         display: block;
         color:white;
         font-weight: lighter;
+    }
+    .nav-menu {
+       display:block;
     }
 
     .logo {
